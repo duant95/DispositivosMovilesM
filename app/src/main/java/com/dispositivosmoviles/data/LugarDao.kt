@@ -9,18 +9,22 @@ import androidx.room.Query
 import androidx.room.Update
 import com.dispositivosmoviles.model.Lugar
 
-@Dao
 interface LugarDao {
-    //CRUD Create Read Update Delete
-    @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun addLugar(lugar: Lugar)
 
-    @Update(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun updateLugar(lugar: Lugar)
+   fun addLugar(lugar: Lugar){
 
-    @Delete
-    suspend fun deleteLugar(lugar: Lugar)
+    }
 
-    @Query("SELECT * FROM LUGAR")
-    fun getLugares() : LiveData<List<Lugar>>
+
+    fun updateLugar(lugar: Lugar){
+
+    }
+
+    fun deleteLugar(lugar: Lugar){
+
+    }
+
+    fun getLugares() : LiveData<List<Lugar>>{
+
+    }
 }

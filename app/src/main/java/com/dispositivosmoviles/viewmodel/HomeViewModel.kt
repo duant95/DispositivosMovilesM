@@ -2,7 +2,6 @@ package com.dispositivosmoviles.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.*
-import com.dispositivosmoviles.data.LugarDatabase
 import com.dispositivosmoviles.model.Lugar
 import com.dispositivosmoviles.repository.LugarRepository
 import kotlinx.coroutines.launch
