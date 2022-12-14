@@ -65,6 +65,6 @@ class DeleteLugarFragment : Fragment() {
             Toast.makeText(requireContext(),getString(R.string.msg_lugar_updated),Toast.LENGTH_LONG).show()
             findNavController().navigate(R.id.action_updateLugarFragment_to_nav_home)
         }
-
+            //nnj
     }
 }
