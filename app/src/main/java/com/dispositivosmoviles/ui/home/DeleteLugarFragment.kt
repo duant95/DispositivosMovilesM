@@ -66,5 +66,7 @@ class DeleteLugarFragment : Fragment() {
             findNavController().navigate(R.id.action_updateLugarFragment_to_nav_home)
         }
             //nnj
+
+        //dwei
     }
 }
